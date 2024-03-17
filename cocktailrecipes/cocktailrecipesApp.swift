@@ -2,7 +2,7 @@
 //  cocktailrecipesApp.swift
 //  cocktailrecipes
 //
-//  Created by Jesse Price on 3/10/24.
+//  Created by Jessie Price on 3/10/24.
 //
 
 import SwiftUI

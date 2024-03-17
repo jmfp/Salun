@@ -12,16 +12,18 @@
 		102135F52B9D894C00F7A9AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 102135F42B9D894C00F7A9AE /* Assets.xcassets */; };
 		102135F92B9D894C00F7A9AE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 102135F82B9D894C00F7A9AE /* Preview Assets.xcassets */; };
 		102136042B9D8C3400F7A9AE /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102136032B9D8C3400F7A9AE /* Recipe.swift */; };
+		10B688702BA3E7CD00E6911D /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B6886F2BA3E7CD00E6911D /* Video.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		102135ED2B9D894900F7A9AE /* cocktailrecipes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cocktailrecipes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		102135ED2B9D894900F7A9AE /* Salun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Salun.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		102135F02B9D894900F7A9AE /* cocktailrecipesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cocktailrecipesApp.swift; sourceTree = "<group>"; };
 		102135F22B9D894900F7A9AE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		102135F42B9D894C00F7A9AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		102135F62B9D894C00F7A9AE /* cocktailrecipes.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = cocktailrecipes.entitlements; sourceTree = "<group>"; };
 		102135F82B9D894C00F7A9AE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		102136032B9D8C3400F7A9AE /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		10B6886F2BA3E7CD00E6911D /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,7 +48,7 @@
 		102135EE2B9D894900F7A9AE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				102135ED2B9D894900F7A9AE /* cocktailrecipes.app */,
+				102135ED2B9D894900F7A9AE /* Salun.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -85,6 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				102136032B9D8C3400F7A9AE /* Recipe.swift */,
+				10B6886F2BA3E7CD00E6911D /* Video.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -99,9 +102,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		102135EC2B9D894900F7A9AE /* cocktailrecipes */ = {
+		102135EC2B9D894900F7A9AE /* Salun */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 102135FC2B9D894C00F7A9AE /* Build configuration list for PBXNativeTarget "cocktailrecipes" */;
+			buildConfigurationList = 102135FC2B9D894C00F7A9AE /* Build configuration list for PBXNativeTarget "Salun" */;
 			buildPhases = (
 				102135E92B9D894900F7A9AE /* Sources */,
 				102135EA2B9D894900F7A9AE /* Frameworks */,
@@ -111,9 +114,9 @@
 			);
 			dependencies = (
 			);
-			name = cocktailrecipes;
+			name = Salun;
 			productName = cocktailrecipes;
-			productReference = 102135ED2B9D894900F7A9AE /* cocktailrecipes.app */;
+			productReference = 102135ED2B9D894900F7A9AE /* Salun.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -131,7 +134,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 102135E82B9D894900F7A9AE /* Build configuration list for PBXProject "cocktailrecipes" */;
+			buildConfigurationList = 102135E82B9D894900F7A9AE /* Build configuration list for PBXProject "Salun" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -144,7 +147,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				102135EC2B9D894900F7A9AE /* cocktailrecipes */,
+				102135EC2B9D894900F7A9AE /* Salun */,
 			);
 		};
 /* End PBXProject section */
@@ -167,6 +170,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				102136042B9D8C3400F7A9AE /* Recipe.swift in Sources */,
+				10B688702BA3E7CD00E6911D /* Video.swift in Sources */,
 				102135F32B9D894900F7A9AE /* ContentView.swift in Sources */,
 				102135F12B9D894900F7A9AE /* cocktailrecipesApp.swift in Sources */,
 			);
@@ -363,7 +367,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		102135E82B9D894900F7A9AE /* Build configuration list for PBXProject "cocktailrecipes" */ = {
+		102135E82B9D894900F7A9AE /* Build configuration list for PBXProject "Salun" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				102135FA2B9D894C00F7A9AE /* Debug */,
@@ -372,7 +376,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		102135FC2B9D894C00F7A9AE /* Build configuration list for PBXNativeTarget "cocktailrecipes" */ = {
+		102135FC2B9D894C00F7A9AE /* Build configuration list for PBXNativeTarget "Salun" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				102135FD2B9D894C00F7A9AE /* Debug */,
