@@ -19,7 +19,6 @@ struct ContentView: View {
         ZStack{
             Color("Background").edgesIgnoringSafeArea(.all)
             VStack {
-                
                 if(drinkRecipe.count > 0){
                     HStack{
                         TextField("Search", text: $drinkText).padding(.leading).textFieldStyle(.roundedBorder)
