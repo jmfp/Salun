@@ -1,8 +1,8 @@
 //
-//  cocktailrecipesApp.swift
-//  cocktailrecipes
+//  Salun.swift
+//  Salun
 //
-//  Created by Jessie Price on 3/10/24.
+//  Created by Jessie Price on 3/19/24.
 //
 
 import SwiftUI
